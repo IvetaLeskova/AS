@@ -12,6 +12,12 @@ class TaskStatus(str, enum.Enum):
     DONE = "DONE"
 
 
+class TaskPriority(str, enum.Enum):
+    LOW = "LOW"
+    MEDIUM = "MEDIUM"
+    HIGH = "HIGH"
+
+
 class Task(Base):
     __tablename__ = "tasks"
 
@@ -35,6 +41,12 @@ class Task(Base):
         Enum(TaskStatus),
         nullable=False,
         default=TaskStatus.TODO
+    )
+
+    priority = Column(
+        Enum(TaskPriority),
+        nullable=False,
+        default=TaskPriority.MEDIUM
     )
 
     created_at = Column(

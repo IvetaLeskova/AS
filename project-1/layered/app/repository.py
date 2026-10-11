@@ -6,7 +6,8 @@ from . import models, schemas
 def create_task(db: Session, task_data: schemas.TaskCreate):
     task = models.Task(
         title=task_data.title,
-        description=task_data.description
+        description=task_data.description,
+        priority=task_data.priority
     )
 
     db.add(task)
@@ -38,6 +39,9 @@ def update_task(
 
     if task_data.description is not None:
         task.description = task_data.description
+
+    if task_data.priority is not None:
+        task.priority = task_data.priority
 
     db.commit()
     db.refresh(task)
