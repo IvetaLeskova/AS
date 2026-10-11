@@ -1,7 +1,8 @@
+import os
 from sqlalchemy import create_engine
 from sqlalchemy.orm import declarative_base, sessionmaker
 
-DATABASE_URL = "sqlite:///./tasks.db"
+DATABASE_URL = os.getenv("TASK_DB_URL", "sqlite:///./tasks.db")
 
 engine = create_engine(
     DATABASE_URL,
