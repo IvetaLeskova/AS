@@ -1,0 +1,397 @@
+{
+  "scenario": "S0",
+  "active_constraints": [],
+  "summary": {
+    "total_configurations": 32,
+    "valid_configurations": 32,
+    "invalid_configurations": 0,
+    "rejected_percentage": 0.0,
+    "rejection_reasons": {}
+  },
+  "configurations": [
+    {
+      "configuration": {
+        "Core": true,
+        "Priority": false,
+        "Categories": false,
+        "Deadlines": false,
+        "Statistics": false,
+        "Export": false
+      },
+      "valid": true,
+      "reasons": []
+    },
+    {
+      "configuration": {
+        "Core": true,
+        "Priority": false,
+        "Categories": false,
+        "Deadlines": false,
+        "Statistics": false,
+        "Export": true
+      },
+      "valid": true,
+      "reasons": []
+    },
+    {
+      "configuration": {
+        "Core": true,
+        "Priority": false,
+        "Categories": false,
+        "Deadlines": false,
+        "Statistics": true,
+        "Export": false
+      },
+      "valid": true,
+      "reasons": []
+    },
+    {
+      "configuration": {
+        "Core": true,
+        "Priority": false,
+        "Categories": false,
+        "Deadlines": false,
+        "Statistics": true,
+        "Export": true
+      },
+      "valid": true,
+      "reasons": []
+    },
+    {
+      "configuration": {
+        "Core": true,
+        "Priority": false,
+        "Categories": false,
+        "Deadlines": true,
+        "Statistics": false,
+        "Export": false
+      },
+      "valid": true,
+      "reasons": []
+    },
+    {
+      "configuration": {
+        "Core": true,
+        "Priority": false,
+        "Categories": false,
+        "Deadlines": true,
+        "Statistics": false,
+        "Export": true
+      },
+      "valid": true,
+      "reasons": []
+    },
+    {
+      "configuration": {
+        "Core": true,
+        "Priority": false,
+        "Categories": false,
+        "Deadlines": true,
+        "Statistics": true,
+        "Export": false
+      },
+      "valid": true,
+      "reasons": []
+    },
+    {
+      "configuration": {
+        "Core": true,
+        "Priority": false,
+        "Categories": false,
+        "Deadlines": true,
+        "Statistics": true,
+        "Export": true
+      },
+      "valid": true,
+      "reasons": []
+    },
+    {
+      "configuration": {
+        "Core": true,
+        "Priority": false,
+        "Categories": true,
+        "Deadlines": false,
+        "Statistics": false,
+        "Export": false
+      },
+      "valid": true,
+      "reasons": []
+    },
+    {
+      "configuration": {
+        "Core": true,
+        "Priority": false,
+        "Categories": true,
+        "Deadlines": false,
+        "Statistics": false,
+        "Export": true
+      },
+      "valid": true,
+      "reasons": []
+    },
+    {
+      "configuration": {
+        "Core": true,
+        "Priority": false,
+        "Categories": true,
+        "Deadlines": false,
+        "Statistics": true,
+        "Export": false
+      },
+      "valid": true,
+      "reasons": []
+    },
+    {
+      "configuration": {
+        "Core": true,
+        "Priority": false,
+        "Categories": true,
+        "Deadlines": false,
+        "Statistics": true,
+        "Export": true
+      },
+      "valid": true,
+      "reasons": []
+    },
+    {
+      "configuration": {
+        "Core": true,
+        "Priority": false,
+        "Categories": true,
+        "Deadlines": true,
+        "Statistics": false,
+        "Export": false
+      },
+      "valid": true,
+      "reasons": []
+    },
+    {
+      "configuration": {
+        "Core": true,
+        "Priority": false,
+        "Categories": true,
+        "Deadlines": true,
+        "Statistics": false,
+        "Export": true
+      },
+      "valid": true,
+      "reasons": []
+    },
+    {
+      "configuration": {
+        "Core": true,
+        "Priority": false,
+        "Categories": true,
+        "Deadlines": true,
+        "Statistics": true,
+        "Export": false
+      },
+      "valid": true,
+      "reasons": []
+    },
+    {
+      "configuration": {
+        "Core": true,
+        "Priority": false,
+        "Categories": true,
+        "Deadlines": true,
+        "Statistics": true,
+        "Export": true
+      },
+      "valid": true,
+      "reasons": []
+    },
+    {
+      "configuration": {
+        "Core": true,
+        "Priority": true,
+        "Categories": false,
+        "Deadlines": false,
+        "Statistics": false,
+        "Export": false
+      },
+      "valid": true,
+      "reasons": []
+    },
+    {
+      "configuration": {
+        "Core": true,
+        "Priority": true,
+        "Categories": false,
+        "Deadlines": false,
+        "Statistics": false,
+        "Export": true
+      },
+      "valid": true,
+      "reasons": []
+    },
+    {
+      "configuration": {
+        "Core": true,
+        "Priority": true,
+        "Categories": false,
+        "Deadlines": false,
+        "Statistics": true,
+        "Export": false
+      },
+      "valid": true,
+      "reasons": []
+    },
+    {
+      "configuration": {
+        "Core": true,
+        "Priority": true,
+        "Categories": false,
+        "Deadlines": false,
+        "Statistics": true,
+        "Export": true
+      },
+      "valid": true,
+      "reasons": []
+    },
+    {
+      "configuration": {
+        "Core": true,
+        "Priority": true,
+        "Categories": false,
+        "Deadlines": true,
+        "Statistics": false,
+        "Export": false
+      },
+      "valid": true,
+      "reasons": []
+    },
+    {
+      "configuration": {
+        "Core": true,
+        "Priority": true,
+        "Categories": false,
+        "Deadlines": true,
+        "Statistics": false,
+        "Export": true
+      },
+      "valid": true,
+      "reasons": []
+    },
+    {
+      "configuration": {
+        "Core": true,
+        "Priority": true,
+        "Categories": false,
+        "Deadlines": true,
+        "Statistics": true,
+        "Export": false
+      },
+      "valid": true,
+      "reasons": []
+    },
+    {
+      "configuration": {
+        "Core": true,
+        "Priority": true,
+        "Categories": false,
+        "Deadlines": true,
+        "Statistics": true,
+        "Export": true
+      },
+      "valid": true,
+      "reasons": []
+    },
+    {
+      "configuration": {
+        "Core": true,
+        "Priority": true,
+        "Categories": true,
+        "Deadlines": false,
+        "Statistics": false,
+        "Export": false
+      },
+      "valid": true,
+      "reasons": []
+    },
+    {
+      "configuration": {
+        "Core": true,
+        "Priority": true,
+        "Categories": true,
+        "Deadlines": false,
+        "Statistics": false,
+        "Export": true
+      },
+      "valid": true,
+      "reasons": []
+    },
+    {
+      "configuration": {
+        "Core": true,
+        "Priority": true,
+        "Categories": true,
+        "Deadlines": false,
+        "Statistics": true,
+        "Export": false
+      },
+      "valid": true,
+      "reasons": []
+    },
+    {
+      "configuration": {
+        "Core": true,
+        "Priority": true,
+        "Categories": true,
+        "Deadlines": false,
+        "Statistics": true,
+        "Export": true
+      },
+      "valid": true,
+      "reasons": []
+    },
+    {
+      "configuration": {
+        "Core": true,
+        "Priority": true,
+        "Categories": true,
+        "Deadlines": true,
+        "Statistics": false,
+        "Export": false
+      },
+      "valid": true,
+      "reasons": []
+    },
+    {
+      "configuration": {
+        "Core": true,
+        "Priority": true,
+        "Categories": true,
+        "Deadlines": true,
+        "Statistics": false,
+        "Export": true
+      },
+      "valid": true,
+      "reasons": []
+    },
+    {
+      "configuration": {
+        "Core": true,
+        "Priority": true,
+        "Categories": true,
+        "Deadlines": true,
+        "Statistics": true,
+        "Export": false
+      },
+      "valid": true,
+      "reasons": []
+    },
+    {
+      "configuration": {
+        "Core": true,
+        "Priority": true,
+        "Categories": true,
+        "Deadlines": true,
+        "Statistics": true,
+        "Export": true
+      },
+      "valid": true,
+      "reasons": []
+    }
+  ]
+}

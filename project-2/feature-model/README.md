@@ -67,14 +67,21 @@ which needs no third-party packages.
 The script reads the model and enumerates every false/true combination of its
 optional features, keeping mandatory features selected. It calls the existing
 validator for each configuration. It does not add or repair selected features.
+It repeats this analysis with no constraints, then with each successive prefix
+of the constraints listed in the model. For the current model these are S0
+(none), S1 (Statistics requires Categories), and S2 (both rules).
 
 Results are saved in `../results/`:
 
 - `summary.json`: total, valid and invalid counts, rejection percentage, and
   the number of configurations violating each dependency.
 - `configurations.json`: every configuration, its validity, and failure reasons.
+- `comparison.json`: active constraints and summaries for all scenarios.
+- `scenarios/S0.json`, `scenarios/S1.json`, `scenarios/S2.json`: per-scenario
+  constraints, summary and complete configuration results.
 
-Each run overwrites these two generated files. The ordering is deterministic.
+The original two files always describe the complete model. Each run overwrites
+the generated files for its active scenarios. The ordering is deterministic.
 Use `--model path/to/model.json` or `--output-dir path/to/results` to change inputs
 or the output directory.
 
@@ -92,3 +99,7 @@ giving 4 × 2 × 2 = 16 valid products.
 This experiment measures dependency violations with Core always selected;
 missing mandatory features and malformed input remain covered by validator tests.
 Enterprise Architect diagrams are maintained separately.
+
+The comparison produces 32, 24 and 16 valid configurations, respectively.
+See [results and interpretation](../results/README.md) and the
+[experiment design](../experiment-design.md).

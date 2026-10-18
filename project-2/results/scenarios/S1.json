@@ -1,0 +1,421 @@
+{
+  "scenario": "S1",
+  "active_constraints": [
+    {
+      "type": "requires",
+      "feature": "Statistics",
+      "requires": "Categories"
+    }
+  ],
+  "summary": {
+    "total_configurations": 32,
+    "valid_configurations": 24,
+    "invalid_configurations": 8,
+    "rejected_percentage": 25.0,
+    "rejection_reasons": {
+      "Statistics requires Categories.": 8
+    }
+  },
+  "configurations": [
+    {
+      "configuration": {
+        "Core": true,
+        "Priority": false,
+        "Categories": false,
+        "Deadlines": false,
+        "Statistics": false,
+        "Export": false
+      },
+      "valid": true,
+      "reasons": []
+    },
+    {
+      "configuration": {
+        "Core": true,
+        "Priority": false,
+        "Categories": false,
+        "Deadlines": false,
+        "Statistics": false,
+        "Export": true
+      },
+      "valid": true,
+      "reasons": []
+    },
+    {
+      "configuration": {
+        "Core": true,
+        "Priority": false,
+        "Categories": false,
+        "Deadlines": false,
+        "Statistics": true,
+        "Export": false
+      },
+      "valid": false,
+      "reasons": [
+        "Statistics requires Categories."
+      ]
+    },
+    {
+      "configuration": {
+        "Core": true,
+        "Priority": false,
+        "Categories": false,
+        "Deadlines": false,
+        "Statistics": true,
+        "Export": true
+      },
+      "valid": false,
+      "reasons": [
+        "Statistics requires Categories."
+      ]
+    },
+    {
+      "configuration": {
+        "Core": true,
+        "Priority": false,
+        "Categories": false,
+        "Deadlines": true,
+        "Statistics": false,
+        "Export": false
+      },
+      "valid": true,
+      "reasons": []
+    },
+    {
+      "configuration": {
+        "Core": true,
+        "Priority": false,
+        "Categories": false,
+        "Deadlines": true,
+        "Statistics": false,
+        "Export": true
+      },
+      "valid": true,
+      "reasons": []
+    },
+    {
+      "configuration": {
+        "Core": true,
+        "Priority": false,
+        "Categories": false,
+        "Deadlines": true,
+        "Statistics": true,
+        "Export": false
+      },
+      "valid": false,
+      "reasons": [
+        "Statistics requires Categories."
+      ]
+    },
+    {
+      "configuration": {
+        "Core": true,
+        "Priority": false,
+        "Categories": false,
+        "Deadlines": true,
+        "Statistics": true,
+        "Export": true
+      },
+      "valid": false,
+      "reasons": [
+        "Statistics requires Categories."
+      ]
+    },
+    {
+      "configuration": {
+        "Core": true,
+        "Priority": false,
+        "Categories": true,
+        "Deadlines": false,
+        "Statistics": false,
+        "Export": false
+      },
+      "valid": true,
+      "reasons": []
+    },
+    {
+      "configuration": {
+        "Core": true,
+        "Priority": false,
+        "Categories": true,
+        "Deadlines": false,
+        "Statistics": false,
+        "Export": true
+      },
+      "valid": true,
+      "reasons": []
+    },
+    {
+      "configuration": {
+        "Core": true,
+        "Priority": false,
+        "Categories": true,
+        "Deadlines": false,
+        "Statistics": true,
+        "Export": false
+      },
+      "valid": true,
+      "reasons": []
+    },
+    {
+      "configuration": {
+        "Core": true,
+        "Priority": false,
+        "Categories": true,
+        "Deadlines": false,
+        "Statistics": true,
+        "Export": true
+      },
+      "valid": true,
+      "reasons": []
+    },
+    {
+      "configuration": {
+        "Core": true,
+        "Priority": false,
+        "Categories": true,
+        "Deadlines": true,
+        "Statistics": false,
+        "Export": false
+      },
+      "valid": true,
+      "reasons": []
+    },
+    {
+      "configuration": {
+        "Core": true,
+        "Priority": false,
+        "Categories": true,
+        "Deadlines": true,
+        "Statistics": false,
+        "Export": true
+      },
+      "valid": true,
+      "reasons": []
+    },
+    {
+      "configuration": {
+        "Core": true,
+        "Priority": false,
+        "Categories": true,
+        "Deadlines": true,
+        "Statistics": true,
+        "Export": false
+      },
+      "valid": true,
+      "reasons": []
+    },
+    {
+      "configuration": {
+        "Core": true,
+        "Priority": false,
+        "Categories": true,
+        "Deadlines": true,
+        "Statistics": true,
+        "Export": true
+      },
+      "valid": true,
+      "reasons": []
+    },
+    {
+      "configuration": {
+        "Core": true,
+        "Priority": true,
+        "Categories": false,
+        "Deadlines": false,
+        "Statistics": false,
+        "Export": false
+      },
+      "valid": true,
+      "reasons": []
+    },
+    {
+      "configuration": {
+        "Core": true,
+        "Priority": true,
+        "Categories": false,
+        "Deadlines": false,
+        "Statistics": false,
+        "Export": true
+      },
+      "valid": true,
+      "reasons": []
+    },
+    {
+      "configuration": {
+        "Core": true,
+        "Priority": true,
+        "Categories": false,
+        "Deadlines": false,
+        "Statistics": true,
+        "Export": false
+      },
+      "valid": false,
+      "reasons": [
+        "Statistics requires Categories."
+      ]
+    },
+    {
+      "configuration": {
+        "Core": true,
+        "Priority": true,
+        "Categories": false,
+        "Deadlines": false,
+        "Statistics": true,
+        "Export": true
+      },
+      "valid": false,
+      "reasons": [
+        "Statistics requires Categories."
+      ]
+    },
+    {
+      "configuration": {
+        "Core": true,
+        "Priority": true,
+        "Categories": false,
+        "Deadlines": true,
+        "Statistics": false,
+        "Export": false
+      },
+      "valid": true,
+      "reasons": []
+    },
+    {
+      "configuration": {
+        "Core": true,
+        "Priority": true,
+        "Categories": false,
+        "Deadlines": true,
+        "Statistics": false,
+        "Export": true
+      },
+      "valid": true,
+      "reasons": []
+    },
+    {
+      "configuration": {
+        "Core": true,
+        "Priority": true,
+        "Categories": false,
+        "Deadlines": true,
+        "Statistics": true,
+        "Export": false
+      },
+      "valid": false,
+      "reasons": [
+        "Statistics requires Categories."
+      ]
+    },
+    {
+      "configuration": {
+        "Core": true,
+        "Priority": true,
+        "Categories": false,
+        "Deadlines": true,
+        "Statistics": true,
+        "Export": true
+      },
+      "valid": false,
+      "reasons": [
+        "Statistics requires Categories."
+      ]
+    },
+    {
+      "configuration": {
+        "Core": true,
+        "Priority": true,
+        "Categories": true,
+        "Deadlines": false,
+        "Statistics": false,
+        "Export": false
+      },
+      "valid": true,
+      "reasons": []
+    },
+    {
+      "configuration": {
+        "Core": true,
+        "Priority": true,
+        "Categories": true,
+        "Deadlines": false,
+        "Statistics": false,
+        "Export": true
+      },
+      "valid": true,
+      "reasons": []
+    },
+    {
+      "configuration": {
+        "Core": true,
+        "Priority": true,
+        "Categories": true,
+        "Deadlines": false,
+        "Statistics": true,
+        "Export": false
+      },
+      "valid": true,
+      "reasons": []
+    },
+    {
+      "configuration": {
+        "Core": true,
+        "Priority": true,
+        "Categories": true,
+        "Deadlines": false,
+        "Statistics": true,
+        "Export": true
+      },
+      "valid": true,
+      "reasons": []
+    },
+    {
+      "configuration": {
+        "Core": true,
+        "Priority": true,
+        "Categories": true,
+        "Deadlines": true,
+        "Statistics": false,
+        "Export": false
+      },
+      "valid": true,
+      "reasons": []
+    },
+    {
+      "configuration": {
+        "Core": true,
+        "Priority": true,
+        "Categories": true,
+        "Deadlines": true,
+        "Statistics": false,
+        "Export": true
+      },
+      "valid": true,
+      "reasons": []
+    },
+    {
+      "configuration": {
+        "Core": true,
+        "Priority": true,
+        "Categories": true,
+        "Deadlines": true,
+        "Statistics": true,
+        "Export": false
+      },
+      "valid": true,
+      "reasons": []
+    },
+    {
+      "configuration": {
+        "Core": true,
+        "Priority": true,
+        "Categories": true,
+        "Deadlines": true,
+        "Statistics": true,
+        "Export": true
+      },
+      "valid": true,
+      "reasons": []
+    }
+  ]
+}

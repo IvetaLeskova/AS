@@ -1,0 +1,57 @@
+[
+  {
+    "scenario": "S0",
+    "active_constraints": [],
+    "summary": {
+      "total_configurations": 32,
+      "valid_configurations": 32,
+      "invalid_configurations": 0,
+      "rejected_percentage": 0.0,
+      "rejection_reasons": {}
+    }
+  },
+  {
+    "scenario": "S1",
+    "active_constraints": [
+      {
+        "type": "requires",
+        "feature": "Statistics",
+        "requires": "Categories"
+      }
+    ],
+    "summary": {
+      "total_configurations": 32,
+      "valid_configurations": 24,
+      "invalid_configurations": 8,
+      "rejected_percentage": 25.0,
+      "rejection_reasons": {
+        "Statistics requires Categories.": 8
+      }
+    }
+  },
+  {
+    "scenario": "S2",
+    "active_constraints": [
+      {
+        "type": "requires",
+        "feature": "Statistics",
+        "requires": "Categories"
+      },
+      {
+        "type": "requires",
+        "feature": "Export",
+        "requires": "Statistics"
+      }
+    ],
+    "summary": {
+      "total_configurations": 32,
+      "valid_configurations": 16,
+      "invalid_configurations": 16,
+      "rejected_percentage": 50.0,
+      "rejection_reasons": {
+        "Export requires Statistics.": 8,
+        "Statistics requires Categories.": 8
+      }
+    }
+  }
+]
