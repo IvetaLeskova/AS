@@ -1,0 +1,8 @@
+{
+  "Core": true,
+  "Priority": true,
+  "Categories": true,
+  "Deadlines": true,
+  "Statistics": true,
+  "Export": true
+}

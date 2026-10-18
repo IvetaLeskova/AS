@@ -1,0 +1,9 @@
+{
+  "product": "Task Manager",
+  "mandatory": ["Core"],
+  "optional": ["Priority", "Categories", "Deadlines", "Statistics", "Export"],
+  "constraints": [
+    {"type": "requires", "feature": "Statistics", "requires": "Categories"},
+    {"type": "requires", "feature": "Export", "requires": "Statistics"}
+  ]
+}
