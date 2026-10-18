@@ -1,0 +1,10 @@
+{
+  "total_configurations": 32,
+  "valid_configurations": 16,
+  "invalid_configurations": 16,
+  "rejected_percentage": 50.0,
+  "rejection_reasons": {
+    "Export requires Statistics.": 8,
+    "Statistics requires Categories.": 8
+  }
+}

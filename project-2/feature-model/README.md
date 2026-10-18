@@ -52,6 +52,43 @@ The validator uses only the Python standard library; pytest is needed for tests.
 Tests cover example files, mandatory features, dependencies, unknown features,
 boolean values, and a model with different feature names.
 
-`../results/` is reserved for later experiments. Configuration enumeration and
-statistical analysis are deferred. Enterprise Architect diagrams are maintained
-separately. Older placeholder directories remain unused.
+## Configuration experiment
+
+From `project-2/`, run:
+
+```text
+python analyze_configurations.py
+```
+
+On macOS, if using the project's virtual environment, first activate it with
+`source .venv/bin/activate`. Alternatively use `python3` for the experiment,
+which needs no third-party packages.
+
+The script reads the model and enumerates every false/true combination of its
+optional features, keeping mandatory features selected. It calls the existing
+validator for each configuration. It does not add or repair selected features.
+
+Results are saved in `../results/`:
+
+- `summary.json`: total, valid and invalid counts, rejection percentage, and
+  the number of configurations violating each dependency.
+- `configurations.json`: every configuration, its validity, and failure reasons.
+
+Each run overwrites these two generated files. The ordering is deterministic.
+Use `--model path/to/model.json` or `--output-dir path/to/results` to change inputs
+or the output directory.
+
+For the current model, five optional features give 2^5 = 32 combinations.
+Exactly 16 are valid and 16 are invalid, so constraints reject 50%.
+Each dependency is violated in eight configurations. In general, one
+configuration can violate multiple rules, so reason counts should not be added
+to calculate the number of invalid configurations.
+
+The counts can also be explained without running the program: Categories,
+Statistics and Export allow four selections (none; Categories; Categories with
+Statistics; all three). Priority and Deadlines each have two independent choices,
+giving 4 × 2 × 2 = 16 valid products.
+
+This experiment measures dependency violations with Core always selected;
+missing mandatory features and malformed input remain covered by validator tests.
+Enterprise Architect diagrams are maintained separately.
